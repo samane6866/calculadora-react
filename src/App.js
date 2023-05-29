@@ -1,13 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Boton from "./components/Boton";
+import Boton from "./components/Boton.js";
 
 function App() {
-  <Boton>1</Boton>;
   return (
     <div className="App">
       <div className="contenedor-calculadora">
-        <div className="fila"></div>
+        <div className="fila">
+          <Boton>1</Boton>
+          <Boton>+</Boton>
+        </div>
         <div className="fila"></div>
         <div className="fila"></div>
         <div className="fila"></div>
