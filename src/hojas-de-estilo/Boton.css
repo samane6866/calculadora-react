@@ -14,6 +14,28 @@
   cursor: pointer;
   user-select: none;
 }
+.boton-contenedor:hover{
+  background-color: blueviolet;
+}
 .operador {
   background-color: rgb(82, 120, 23);
+}
+.operador:hover{
+  background-color: orange;
+}
+
+.input{
+  height: 75px;
+  border-radius:50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: aliceblue;
+  padding: 11px;
+  background-color: rgb(115, 32, 32);
+  padding-right: 30px;
+  font-weight: bold;
+  margin:1px solid grey;
+  box-shadow: 1px 4px 1px 1px white;
 }
