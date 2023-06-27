@@ -12,8 +12,13 @@ function App() {
   const agregarInput = val => {
     setInput(input+val)
   }
-  const calcularResultado = ()=>{
-    setInput(evaluate(input));
+  const calcularResultado = () => {
+    if (input) {
+      setInput(evaluate(input));
+    } else {
+      alert("porfavor ingrese valorores para calcular")
+    }
+    
   }
 
 
